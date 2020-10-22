@@ -5,8 +5,8 @@ public class Student {
     private Integer age;
     private String address;
 
-    @java.lang.Override
-    public java.lang.String toString() {
+    @Override
+    public String toString() {
         return "Student{" +
                 "id='" + id + '\'' +
                 ", age=" + age +
