@@ -28,4 +28,13 @@ public class Student {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    public Student() {
+    }
+
+    public Student(String id, Integer age, String address) {
+        this.id = id;
+        this.age = age;
+        this.address = address;
+    }
 }
